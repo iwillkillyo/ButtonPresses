@@ -124,6 +124,7 @@ Trinity Prime Chassis Blueprint
 Trinity Prime Neuroptics Blueprint
 Trinity Prime Systems Blueprint
 Valkyr Prime Blueprint
+Valkvr Prime Blueprint
 Valkyr Prime Chassis Blueprint
 Valkyr Prime Neuroptics
 Valkyr Prime Systems Blueprint

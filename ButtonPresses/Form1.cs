@@ -169,23 +169,36 @@ namespace ButtonPresses
             base.WndProc(ref m);
         }
 
-        private string[] downloadLinebyLine(string url)
+        private List<string> downloadLinebyLine(Uri url)
         {
-            string[] download;
+            List<string> download = new List<string>();
 
             var client = new WebClient();
-            using (var stream = client.OpenRead(url))
-            using (var reader = new StreamReader(stream))
+            try
             {
-                string line;
-                int i = 0;
-                while((line = reader.ReadLine()) != null)
+                using (var stream = client.OpenRead(url))
+                using (var reader = new StreamReader(stream))
                 {
-                    download[i] = line;
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        download.Add(line);
+                    }
                 }
             }
+            catch (WebException e)
+            {
+                MessageBox.Show(e.Message + "\r\nUsing old database, so prices won't be correct!");
+            }
+            return download;
+        }
 
-                return download;
+        public class Person
+        {
+            public string Item { get; set; }
+            public string Ducats { get; set; }
+            public string MinPlat { get; set; }
+            public string AvgPlat { get; set; }
         }
 
         /*
@@ -199,34 +212,11 @@ namespace ButtonPresses
                 progressBar2.Invoke(new MethodInvoker(delegate { progressBar2.Visible = true; }));
             }
             string filename = "wf_drops.txt";
-            WebClient client = new WebClient();
-            string database = "";
-            try
-            {
-                database = client.DownloadString(new Uri("http://188.240.208.209/" + filename));
-                if (progressBar2.InvokeRequired)
-                {
-                    progressBar2.Invoke(new MethodInvoker(delegate { progressBar2.Value = 50; }));
-                }
-            }
-            catch (WebException e)
-            {
-                MessageBox.Show(e.Message + "\r\nUsing old database, so prices won't be correct!");
-            }
-            MessageBox.Show(database);
-            if (File.Exists(filename))
-            {
-                TextWriter tw = new StreamWriter(filename);
-                tw.Write(database);
-                tw.Close();
-                File.WriteAllText(filename, database);
-            }
-            else
-            {
-                File.Create(filename);
-                TextWriter tw = new StreamWriter(filename);
-                tw.Write(database);
-            }
+            List<string> drops = downloadLinebyLine(new Uri("http://188.240.208.209/" + filename));
+            TextWriter sw = new StreamWriter(filename);
+            sw.Write("");
+            sw.Close();
+            File.WriteAllLines(filename, drops);
             if (progressBar2.InvokeRequired)
             {
                 progressBar2.Invoke(new MethodInvoker(delegate { progressBar2.Visible = false; }));
@@ -242,10 +232,11 @@ namespace ButtonPresses
             string[] drops = File.ReadAllLines("wf_drops.txt");
             foreach (var item in drops)
             {
+                string[] values = item.Split(';');
                 var isIt = Regex.Match(text, item, RegexOptions.IgnoreCase);
                 if (isIt.Success)
                 {
-                    listView1.Items.Add(new ListViewItem(new string[] { item, "Dukat" }));
+                    listView1.Items.Add(new ListViewItem(new string[] { values[0], "Dukat", "Platinum" }));
                 }
             }
         }
@@ -277,6 +268,10 @@ namespace ButtonPresses
                 Trace.TraceError(e.ToString());
             }
             parsedString = pictureString;
+            if (richTextBox1.InvokeRequired)
+            {
+                richTextBox1.Invoke(new MethodInvoker(delegate { richTextBox1.Text = parsedString; }));
+            }
             return pictureString;
         }
         public Form1()

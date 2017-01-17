@@ -38,6 +38,7 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -107,11 +108,20 @@
             this.progressBar2.Size = new System.Drawing.Size(223, 23);
             this.progressBar2.TabIndex = 5;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(54, 352);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(493, 200);
+            this.richTextBox1.TabIndex = 6;
+            this.richTextBox1.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(605, 332);
+            this.ClientSize = new System.Drawing.Size(605, 564);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.progressBar2);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.listView1);
@@ -141,6 +151,7 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Windows.Forms.ProgressBar progressBar2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
