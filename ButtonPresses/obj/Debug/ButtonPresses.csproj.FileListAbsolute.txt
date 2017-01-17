@@ -1,0 +1,15 @@
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\ButtonPresses.exe.config
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\ButtonPresses.exe
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\ButtonPresses.pdb
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\obj\Debug\ButtonPresses.csprojResolveAssemblyReference.cache
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\obj\Debug\ButtonPresses.Form1.resources
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\obj\Debug\ButtonPresses.Properties.Resources.resources
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\obj\Debug\ButtonPresses.csproj.GenerateResource.Cache
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\obj\Debug\ButtonPresses.exe
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\obj\Debug\ButtonPresses.pdb
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\x64\liblept172.dll
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\x64\libtesseract304.dll
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\x86\liblept172.dll
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\x86\libtesseract304.dll
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\Tesseract.dll
+c:\users\plenk\documents\visual studio 2015\Projects\ButtonPresses\ButtonPresses\bin\Debug\Tesseract.xml

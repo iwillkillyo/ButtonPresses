@@ -1,0 +1,147 @@
+Akbronco Prime Blueprint
+Akbronco Prime Link
+Akstiletto Prime Barrel
+Akstiletto Prime Blueprint
+Akstiletto Prime Link
+Akstiletto Prime Receiver
+Ash Prime Blueprint
+Ash Prime Chassis Blueprint
+Ash Prime Neuroptics Blueprint
+Ash Prime Systems Blueprint
+Boar Prime Barrel
+Boar Prime Blueprint
+Boar Prime Receiver
+Boar Prime Stock
+Braton Prime Barrel
+Braton Prime Blueprint
+Braton Prime Receiver
+Braton Prime Stock
+Bronco Prime Barrel
+Bronco Prime Blueprint
+Bronco Prime Receiver
+Burston Prime Barrel
+Burston Prime Blueprint
+Burston Prime Receiver
+Burston Prime Stock
+Carrier Prime Blueprint
+Carrier Prime Carapace
+Carrier Prime Cerebrum
+Carrier Prime Systems
+Cernos Prime Blueprint
+Cernos Prime Grip
+Cernos Prime Lower Limb
+Cernos Prime String
+Cernos Prime Upper Limb
+Dakra Prime Blade
+Dakra Prime Blueprint
+Dakra Prime Handle
+Dual Kamas Prime Blade
+Dual Kamas Prime Blueprint
+Dual Kamas Prime Handle
+Ember Prime Blueprint
+Ember Prime Neuroptics
+Fang Prime Blade
+Fang Prime Blueprint
+Fang Prime Handle
+Forma Blueprint
+Fragor Prime Blueprint
+Fragor Prime Handle
+Fragor Prime Head
+Frost Prime Neuroptics
+Frost Prime Systems Blueprint
+Galatine Prime Blade
+Galatine Prime Blueprint
+Galatine Prime Handle
+Glaive Prime Blade
+Glaive Prime Disc
+Hikou Prime Blueprint
+Hikou Prime Pouch
+Hikou Prime Stars
+Kavasa Prime Band
+Kavasa Prime Blueprint
+Kavasa Prime Buckle
+Kavasa Prime Kubrow Collar Blueprint
+Latron Prime Barrel
+Latron Prime Receiver
+Lex Prime Barrel
+Lex Prime Blueprint
+Lex Prime Receiver
+Mag Prime Blueprint
+Mag Prime Chassis Blueprint
+Mag Prime Neuroptics Blueprint
+Mag Prime Systems Blueprint
+Nekros Prime Blueprint
+Nekros Prime Chassis Blueprint
+Nekros Prime Neuroptics Blueprint
+Nekros Prime Systems Blueprint
+Nikana Prime Blade
+Nikana Prime Blueprint
+Nikana Prime Hilt
+Nova Prime Blueprint
+Nova Prime Chassis Blueprint
+Nova Prime Neuroptics Blueprint
+Nova Prime Systems Blueprint
+Nyx Prime Blueprint
+Nyx Prime Chassis Blueprint
+Nyx Prime Neuroptics Blueprint
+Nyx Prime Systems Blueprint
+Odonata Prime Blueprint
+Odonata Prime Harness
+Odonata Prime Harness Blueprint
+Odonata Prime Systems Blueprint
+Odonata Prime Wings
+Orthos Prime Blade
+Orthos Prime Blueprint
+Orthos Prime Handle
+Paris Prime Blueprint
+Paris Prime Grip
+Paris Prime Lower Limb
+Paris Prime String
+Paris Prime Upper Limb
+Reaper Prime Blueprint
+Saryn Prime Blueprint
+Saryn Prime Chassis Blueprint
+Saryn Prime Neuroptics Blueprint
+Saryn Prime Systems Blueprint
+Scindo Prime Blade
+Scindo Prime Blueprint
+Scindo Prime Handle
+Sicarus Prime Blueprint
+Sicarus Prime Receiver
+Soma Prime Barrel
+Soma Prime Blueprint
+Soma Prime Receiver
+Soma Prime Stock
+Spira Prime Blade
+Spira Prime Blueprint
+Spira Prime Pouch
+Tigris Prime Barrel
+Tigris Prime Blueprint
+Tigris Prime Receiver
+Tigris Prime Stock
+Trinity Prime Blueprint
+Trinity Prime Chassis Blueprint
+Trinity Prime Neuroptics Blueprint
+Trinity Prime Systems Blueprint
+Valkyr Prime Blueprint
+Valkyr Prime Chassis Blueprint
+Valkyr Prime Neuroptics
+Valkyr Prime Systems Blueprint
+Vasto Prime Barrel
+Vasto Prime Blueprint
+Vasto Prime Receiver
+Vauban Prime Blueprint
+Vauban Prime Chassis Blueprint
+Vauban Prime Neuroptics Blueprint
+Vauban Prime Systems Blueprint
+Vectis Prime Barrel
+Vectis Prime Blueprint
+Vectis Prime Receiver
+Vectis Prime Stock
+Venka Prime Blades
+Venka Prime Blueprint
+Venka Prime Gauntlet
+Volt Prime Blueprint
+Volt Prime Chassis Blueprint
+Volt Prime Neuroptics Blueprint
+Volt Prime Systems Blueprint
