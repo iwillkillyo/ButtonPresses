@@ -169,6 +169,70 @@ namespace ButtonPresses
             base.WndProc(ref m);
         }
 
+        private string[] downloadLinebyLine(string url)
+        {
+            string[] download;
+
+            var client = new WebClient();
+            using (var stream = client.OpenRead(url))
+            using (var reader = new StreamReader(stream))
+            {
+                string line;
+                int i = 0;
+                while((line = reader.ReadLine()) != null)
+                {
+                    download[i] = line;
+                }
+            }
+
+                return download;
+        }
+
+        /*
+         * Getting fresh price database
+         */
+
+        private void updateDatabase()
+        {
+            if (progressBar2.InvokeRequired)
+            {
+                progressBar2.Invoke(new MethodInvoker(delegate { progressBar2.Visible = true; }));
+            }
+            string filename = "wf_drops.txt";
+            WebClient client = new WebClient();
+            string database = "";
+            try
+            {
+                database = client.DownloadString(new Uri("http://188.240.208.209/" + filename));
+                if (progressBar2.InvokeRequired)
+                {
+                    progressBar2.Invoke(new MethodInvoker(delegate { progressBar2.Value = 50; }));
+                }
+            }
+            catch (WebException e)
+            {
+                MessageBox.Show(e.Message + "\r\nUsing old database, so prices won't be correct!");
+            }
+            MessageBox.Show(database);
+            if (File.Exists(filename))
+            {
+                TextWriter tw = new StreamWriter(filename);
+                tw.Write(database);
+                tw.Close();
+                File.WriteAllText(filename, database);
+            }
+            else
+            {
+                File.Create(filename);
+                TextWriter tw = new StreamWriter(filename);
+                tw.Write(database);
+            }
+            if (progressBar2.InvokeRequired)
+            {
+                progressBar2.Invoke(new MethodInvoker(delegate { progressBar2.Visible = false; }));
+            }
+        }
+
         /*
          * Getting the drops
          */
@@ -317,7 +381,8 @@ namespace ButtonPresses
 
         private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
         {
-            getVersion();
+            //getVersion();
+            updateDatabase();
         }
     }
 }
